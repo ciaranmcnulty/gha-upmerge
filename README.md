@@ -29,7 +29,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Up Merge
-      uses: bambamboole/gha-upmerge@master
+      uses: bambamboole/gha-upmerge@main   
       with:
         stable_branch: 'master'
         development_branch: 'develop'
